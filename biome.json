@@ -7,12 +7,11 @@
     "useIgnoreFile": true
   },
   "formatter": {
-    "enabled": true,
+    "enabled": false,
     "indentStyle": "space"
   },
   "javascript": {
     "formatter": {
-      "quoteStyle": "single",
       "arrowParentheses": "asNeeded",
       "jsxQuoteStyle": "double",
       "lineWidth": 80
@@ -21,14 +20,19 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": false
     }
   },
   "organizeImports": {
-    "enabled": true
+    "enabled": false
   },
   "files": {
     "ignoreUnknown": true,
-    "ignore": [".vscode/**/*", "node_modules/**/*", "dist/**/*"]
+    "ignore": [
+      ".vscode/**/*",
+      "node_modules/**/*",
+      "dist/**/*",
+      "nft-mock-data/**/*"
+    ]
   }
 }
